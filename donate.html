@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>寄付 — Cache Zero</title>
+<style>
+* { box-sizing: border-box; margin: 0; }
+body {
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+  background: linear-gradient(135deg, #3ef2c3 0%, #00c2ff 100%);
+  min-height: 100vh;
+  padding: 48px 16px;
+  color: #17323b;
+}
+.card {
+  max-width: 640px; margin: 0 auto;
+  background: #fff; border-radius: 18px;
+  padding: 44px 36px;
+  box-shadow: 0 12px 36px rgba(0, 80, 115, 0.22);
+  line-height: 2.0;
+}
+h1 { font-size: 20px; color: #0b4a5c; margin-bottom: 32px; text-align: center; letter-spacing: 0.1em; }
+h2 { font-size: 15px; color: #0b4a5c; margin: 44px 0 14px; padding-left: 10px; border-left: 4px solid #00b5f0; }
+p { font-size: 14px; margin-bottom: 14px; }
+.punch {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 800;
+  color: #0093c4;
+  margin: 40px 0;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+}
+.small { font-size: 12px; color: #5f7880; }
+ul { padding-left: 22px; margin-bottom: 14px; }
+li { font-size: 14px; margin-bottom: 6px; }
+.donate-box {
+  text-align: center;
+  margin: 36px 0 8px;
+  padding: 28px 20px;
+  background: #f0fbfd;
+  border-radius: 14px;
+}
+.donate-box a.btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #21d4a5, #00b5f0);
+  color: #fff; font-weight: 700; font-size: 15px;
+  border-radius: 32px; padding: 14px 40px;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(0, 90, 130, 0.3);
+}
+.donate-box p { margin-top: 12px; }
+.footer-nav { text-align: center; margin-top: 28px; font-size: 12px; }
+.footer-nav a { color: #0093c4; }
+.sig { text-align: right; font-size: 13px; color: #5f7880; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>寄付のお願い</h1>
+
+  <h2>なぜ寄付が必要なのか</h2>
+  <p>Cache Zeroには、広告がありません。課金もありません。ユーザーのデータも、一切集めていません。</p>
+  <p>「自分がユーザーだったら、こういう拡張機能が欲しい」——それだけを基準に作ったら、収益になる要素がすべて消えました。</p>
+  <p>その結果を正直にご報告すると、</p>
+
+  <p class="punch">気持ちいいくらい、<br>儲かっていません。</p>
+
+  <h2>それでも、この形を続けたい理由</h2>
+  <p>広告を入れれば、収益は出ます。でも、キャッシュを消すたびに広告が出るツールを、自分なら使い続けたくありません。</p>
+  <p>データを売れば、儲かるかもしれません。でも「データ収集ゼロ」と掲げたツールが裏でデータを集めていたら、それはただの嘘です。</p>
+  <p>だから、収益の柱は最初からあきらめて、「使う人にとって一番いい形」を守ることにしました。そのぶんの支えを、使ってよかったと思ってくださった方からの寄付にお願いしています。</p>
+
+  <h2>ご支援の使い道</h2>
+  <ul>
+    <li>新機能の開発と不具合修正の時間</li>
+    <li>Chromeウェブストアの掲載維持・審査対応</li>
+    <li>プライバシーポリシー等の公開ページの運営</li>
+  </ul>
+  <p>缶コーヒー1本分のご支援でも、「この方針のまま続けていいんだ」という何よりの確認になります。</p>
+
+  <h2>寄付する</h2>
+  <div class="donate-box">
+    <a class="btn" href="https://buy.stripe.com/3cI3cu2YG0pV73P2B69R600" id="donateBtn">開発を支援する</a>
+    <p class="small">外部の決済サービスに移動します。金額は自由に選べます。</p>
+  </div>
+  <p class="small">※ 寄付の有無で機能に差がつくことはありません。Cache Zeroは今後も全機能無料です。</p>
+
+  <p class="sig">Cache Zero 開発者　金沢一樹</p>
+
+  <div class="footer-nav">
+    <a href="index.html">プライバシーポリシー</a>
+  </div>
+</div>
+</body>
+</html>
